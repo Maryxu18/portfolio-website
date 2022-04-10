@@ -1,0 +1,25 @@
+export const projectsData =  [
+    {tag: "Software Development",
+    projectLink:"https://bookitapp.me",
+    codeLink:"youtube.com",
+    description: "A web application that helps connect nearby readers and provides a user-friendly interface they can use to share their books and borrow from others in their community.",
+title: "BookIt Web App",
+tech: ["React", "JavaScript", "Express.js", "Node.js","MongoDB","GraphQL"],
+img: "bookit.png"},
+
+{tag: "Software Development",
+projectLink:"",
+codeLink:"",
+description: "A website like Google Classroom but is improved to enable organic and guided interactions within the user community.",
+title: "e-Learning Platform",
+tech: ["React", "TypeScript", "MongoDB", "Express.js", "Node.js", "REST API"],
+img: "bookit.png"},
+
+{tag: "Software Development",
+projectLink:"",
+codeLink:"",
+description: "A backend solution that allows you to request rides - matching you with drivers nearby to take you to your destination.",
+title: "Zoomer",
+tech: ["Java", "PostgreSQL", "MongoDB", "Neo4j", "Docker"],
+img: "zoomer.png"},
+]
