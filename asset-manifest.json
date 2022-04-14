@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f12cad12.css",
-    "main.js": "/static/js/main.6e911213.js",
+    "main.css": "/static/css/main.7ae6bdc7.css",
+    "main.js": "/static/js/main.2fc535c8.js",
     "static/media/bookit.png": "/static/media/bookit.b7129aa3f1703b184373.png",
     "static/media/me.png": "/static/media/me.dad744861912ca31186a.png",
     "static/media/bgIMG.png": "/static/media/bgIMG.c39101e520e2997fc6d4.png",
@@ -9,9 +9,15 @@
     "static/media/postgresql.png": "/static/media/postgresql.f8aa80ee83791cb4e6cb.png",
     "static/media/neo4j.png": "/static/media/neo4j.a09637cdb2f7aad68d4f.png",
     "static/media/resume.pdf": "/static/media/resume.d25af91e5d345b7ea833.pdf",
+    "static/media/e-learning.png": "/static/media/e-learning.7ed0ef8628ac81d52d34.png",
+    "static/media/ix.png": "/static/media/ix.078134f76549b39befb6.png",
     "static/media/java.png": "/static/media/java.44b65100370243570faa.png",
     "static/media/zoomer.png": "/static/media/zoomer.8322b53a300492054fbf.png",
     "static/media/c.png": "/static/media/c.837a49116fe3c020f47d.png",
+    "static/media/sql.png": "/static/media/sql.71445e995e713461325e.png",
+    "static/media/express.png": "/static/media/express.2aa109e149f9daca0349.png",
+    "static/media/cibc.png": "/static/media/cibc.3329b4a41fb59f10b546.png",
+    "static/media/livelabs.png": "/static/media/livelabs.234f3d83d22ab9d47f6e.png",
     "static/media/java.jpg": "/static/media/java.0a13d20e368723d804f0.jpg",
     "static/media/docker.png": "/static/media/docker.9b25609aa2e2e72b0f05.png",
     "static/media/sass.png": "/static/media/sass.36e863bfbcb25c109d00.png",
@@ -21,13 +27,18 @@
     "static/media/email.png": "/static/media/email.37b9e890eea501421fbf.png",
     "static/media/docker.jpg": "/static/media/docker.de5bbbcc81ac186e66e6.jpg",
     "static/media/css.png": "/static/media/css.5721a3928fe43de6baf8.png",
-    "static/media/logo.svg": "/static/media/logo.fa5d83cd16a60b080f05.svg",
+    "static/media/Mx.ico": "/static/media/Mx.6d58e09669a15d01af1c.ico",
+    "static/media/cibc.svg": "/static/media/cibc.33fc17379ebc7f7e7d27f05a462414bf.svg",
+    "static/media/Mx.svg": "/static/media/Mx.9752b96969be8fd6697109e5ccce996a.svg",
+    "static/media/livelabs.svg": "/static/media/livelabs.68024d5d02cd79d71a3e.svg",
+    "static/media/ix.svg": "/static/media/ix.a6f74afccb60be5d70b7.svg",
+    "static/media/logo (2).svg": "/static/media/logo (2).39e38b31a6327769547b.svg",
     "index.html": "/index.html",
-    "main.f12cad12.css.map": "/static/css/main.f12cad12.css.map",
-    "main.6e911213.js.map": "/static/js/main.6e911213.js.map"
+    "main.7ae6bdc7.css.map": "/static/css/main.7ae6bdc7.css.map",
+    "main.2fc535c8.js.map": "/static/js/main.2fc535c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.f12cad12.css",
-    "static/js/main.6e911213.js"
+    "static/css/main.7ae6bdc7.css",
+    "static/js/main.2fc535c8.js"
   ]
 }
