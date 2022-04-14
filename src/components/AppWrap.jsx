@@ -9,6 +9,9 @@ const AppWrap = (Component, idName, classNames) =>
         <SocialMedia />
         <div className="app__wrapper app__flex">
           <Component />
+          {idName==='contact' ? (<div className="copyright">
+          <p className="p-text">Made with ♥</p>
+        </div>): <></>}
         </div>{" "}
         <NavigationDots active={idName} />{" "}
       </div>

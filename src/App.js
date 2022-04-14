@@ -10,21 +10,19 @@ import { NavBar } from "./components/NavBar";
 import "./App.scss";
 
 const App = () => {
-    return ( <
-            div className = "app" >
-            <
-            NavBar > < /NavBar> <
-            Header > < /Header> <
-            Projects > < /Projects> <
-            Skills > < /Skills> <
-            Experience > < /Experience> <
-            Footer > < /Footer> {
-            /* <Routes>
-                            <Route path = "/resume" element = { <Resume/>} exact />
-                            </Routes>  */
-        } <
-        /div>
-);
+  return (
+    <div className="app">
+      <NavBar></NavBar>
+      <Header></Header>
+      <Projects></Projects>
+      <Skills></Skills>
+      <Experience></Experience>
+      <Footer></Footer>
+      {/* <Routes>
+                <Route path = "/resume" element = { <Resume/>} exact />
+                </Routes>  */}
+    </div>
+  );
 };
 
 export default App;
