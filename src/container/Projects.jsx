@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {motion} from "framer-motion";
 import "../styles/Projects.scss";
 import AppWrap from '../components/AppWrap';
+import MotionWrap from "../components/MotionWrap";
 import  {projectsData} from "../data/projectsData";
 import { AiFillEye, AiFillGithub } from 'react-icons/ai';
 function Projects() {
@@ -28,7 +29,7 @@ function Projects() {
   return (
     <>
       <h2 className="head-text"> <span> PROJECTS </span> </h2>
-
+      <h2 class="head-text-small">I've been working on</h2>
       <div className="app__work-filter">
         {['Software Development', 'Data Science','All'].map((item, index) => (
           <div
@@ -100,4 +101,9 @@ function Projects() {
     </>
   );
 };
-export default AppWrap(Projects,"projects");
+
+export default AppWrap(
+  MotionWrap(Projects, 'app__projects'),
+  'projects',
+  'app__primarybg',
+);

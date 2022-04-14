@@ -2,15 +2,15 @@ import React,{useState} from "react";
 import "../styles/NavBar.scss";
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
-
+import logo from "../assets/Mx.svg"
 
 export function NavBar() {
     const [toggle, setToggle] = useState(false);
   return (
     <nav className="app__navbar">
-      <div className="app__navbar-logo"> <a href={`#home`}>LOGO</a></div>
+      <div className="app__navbar-logo"> <a href={`#home`}><img src={logo} alt="React Logo" /></a></div>
       <ul className="app__navbar-links">
-        {["projects", "skills", "experience", "about", "contact"].map((item) => (
+        {["projects", "skills", "experience", "contact"].map((item) => (
           <li className="app__flex p-text" key={`link-${item}`}> 
             <a href={`#${item}`}>{item}</a>
             <div></div>
@@ -27,7 +27,7 @@ export function NavBar() {
           >
             <HiX onClick={() => setToggle(false)} />
             <ul>
-              {["projects", "skills", "experience", "about", "contact"].map((item) => (
+              {["projects", "skills", "experience", "contact"].map((item) => (
                 <li key={item}>
                   <a href={`#${item}`} onClick={() => setToggle(false)}>
                     {item}

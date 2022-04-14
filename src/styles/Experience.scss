@@ -1,0 +1,44 @@
+.experience__container {
+    margin-top: 2.8rem !important;
+}
+
+.experience__icon {
+    background: var(--secondary-color);
+    position: absolute;
+    top: 19px!important;
+    left: 52.1% !important;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50%;
+    @media only screen and (max-width: 900px) {
+        top: 10px!important;
+        width: 20px !important;
+        height: 20px !important;
+        left: 3% !important;
+    }
+}
+
+.experience__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.experience__header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.experience__img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.experience__descriptions {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
