@@ -22,12 +22,13 @@ export const projectsData = [
         projectLink: "https://github.com/richardye101/ubineer_nlp_research",
         codeLink: "https://richardye101.github.io/ubineer_nlp_research/intro.html",
         description:
-          "A research project that focuses on unsupervised analysis of textual data from 10K financial reports",
+          "A research project that focuses on unsupervised analysis of textual data from 10K financial reports. More specifically, applied data-preprocessing and topic modelling techniques.",
         title: "Financial Textual Analysis",
         tech: [
           "Python",
           "Sklearn",
           "GCP",
+          "NLP",
         ],
         img: "textual_analysis.webp",
     },
@@ -65,11 +66,12 @@ export const projectsData = [
         projectLink: "",
         codeLink: "",
         description:
-          "A research project that aims to improve APOPO’s rat scent detection technology by using stastical analysis and clustering techniques.",
+          "A research project that aims to improve APOPO’s rat scent detection technology by using stastical analysis. Explored the process of applying clustering techniques, such as hierarchical clustering and K-means clustering, to the problem.",
         title: "APOPO Rat Optimization",
         tech: [
           "R",
           "ggplot",
+          "Clustering"
         ],
         img: "apopo.jpeg",
     },
