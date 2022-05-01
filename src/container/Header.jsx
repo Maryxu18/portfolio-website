@@ -24,7 +24,7 @@ function Header() {
           </h2>
           <div className="about__text">
           <p> I'm specializing in Software Engineering 👩‍💻 and majoring in Statistics📊. 
-            I love building frontend solutions to solve real-life problems and you can check out some of them in my projects!
+            I enjoy building fullstack solutions to solve real-life problems and you can check out some of them in my projects!
             I am also curious to explore opportunities in Machine Learning 🧠, which allows me to combine my knowledge in statistics and software development.
              </p></div>
           <div className="about__btn-container"> 
